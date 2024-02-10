@@ -31,7 +31,7 @@ const displayTitles = computed(() => {
 
 <template>
     <header class="">
-        <h1 class="relative">
+        <h1 class="relative mainTitle">
             <span class="translation fr">{{ displayTitles.fr }}</span>
             <span class="translation en">{{ displayTitles.en }}</span>
         </h1>
@@ -41,7 +41,8 @@ const displayTitles = computed(() => {
 </template>
 
 <style scoped>
-h1 {
+h1.mainTitle {
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif !important;
     margin-top: 1rem;
     margin-right: 100px;
     line-height: 0.8em;
