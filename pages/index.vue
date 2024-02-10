@@ -1,5 +1,5 @@
 <template>
-    <main class="r grow">
+    <main class="grow">
 
     </main>
 </template>

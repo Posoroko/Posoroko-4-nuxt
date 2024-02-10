@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "global": {
+                "date": "2024-02-01",
+                "linkUrl": "https://github.com/Posoroko/Krismenn-3"
+            },
+            "content": {
+                "fr": {
+                    "title": "Nouveau site de Krismenn",
+                    "linkText": "Visiter le github"
+                },
+                "en": {
+                    "title": "New Krismenn website",
+                    "linkText": "Check on github"
+                }
+            }
+        },
+        {
+            "global": {
+                "date": "2024-02-10",
+                "url": "https://github.com/Posoroko/Krismenn-3"
+            },
+            "content": {
+                "fr": {
+                    "title": "French Fonts "
+                },
+                "en": {
+                    "title": "NeFrench Fonts"
+                }
+            }
+        }
+    ]
+}

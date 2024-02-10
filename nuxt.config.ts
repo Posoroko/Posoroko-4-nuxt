@@ -1,5 +1,13 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-//   devtools: { enabled: true }
-    css: [ '@/css/base.css', '@/css/utility.css']
+    modules: ['@nuxtjs/seo'],
+    css: [ '@/css/base.css', '@/css/utility.css'],
+    ssr: true,
+
+    site: {
+        url: 'https://posoroko.com',
+        name: "Eric Podhorecki, développeur web full-stack",
+        description: "Eric Podhorecki est un développeur web full-stack spécialisé dnas le développement de sites web et d'applications web.",
+        defaultLocale: 'fr', // not needed if you have @nuxtjs/i18n installed
+    }
+
 })
