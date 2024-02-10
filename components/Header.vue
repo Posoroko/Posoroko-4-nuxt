@@ -21,8 +21,8 @@ const displayTitles = computed(() => {
             }
         default: 
             return {
-                fr: 'Eric Archambault',
-                en: 'Eric Archambault'
+                fr: 'Eric Podhorecki',
+                en: 'Eric Podhorecki'
             }
     }
 })

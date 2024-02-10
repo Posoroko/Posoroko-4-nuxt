@@ -58,7 +58,9 @@ const route = useRoute();
 }
 
 .mainNav .text {
-    font-size: clamp(2.8rem, 3.5vw, 5rem);
+    font-size: 50px;
+    /* font-size: clamp(2.8rem, 3.5vw, 5rem); */
+
     font-weight: 600;
     letter-spacing: -0.2vw;
     line-height: 0.8em;
