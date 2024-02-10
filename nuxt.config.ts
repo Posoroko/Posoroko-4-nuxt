@@ -33,6 +33,7 @@ export default defineNuxtConfig({
                 { property: 'og:image:secure_url', content: 'https://posoroko.com/seo-assets/og-banner.jpg' },
                 { property: 'og:title', content: 'Eric Podhorecki, développeur web full-stack' },
                 { property: 'og:type', content: 'website' },
+                { property: 'fb:app_id', content: '123456789' },
             ]
         }
     }
