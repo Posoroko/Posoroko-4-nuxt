@@ -25,15 +25,15 @@ export default defineNuxtConfig({
                 { rel: 'theme-color', content: '#ffffff' }
             ],
             meta: [
-                { property: 'og:image', content: '/seo-assets/og-banner.jpg' },
-                { property: 'og:image:width', content: '1200' },
-                { property: 'og:image:height', content: '630' },
-                { property: 'og:image:alt', content: 'Eric Podhorecki, développeur web full-stack' },
-                { property: 'og:image:type', content: 'image/jpg' },
-                { property: 'og:image:secure_url', content: 'https://posoroko.com/seo-assets/og-banner.jpg' },
-                { property: 'og:title', content: 'Eric Podhorecki, développeur web full-stack' },
-                { property: 'og:type', content: 'website' },
-                { property: 'fb:app_id', content: '123456789' },
+                { name: 'og:image' , property: 'og:image', content: '/seo-assets/og-banner.jpg' },
+                { name: 'og:image:width' , property: 'og:image:width', content: '1200' },
+                { name: 'og:image:height' , property: 'og:image:height', content: '630' },
+                { name: 'og:image:alt' , property: 'og:image:alt', content: 'Eric Podhorecki, développeur web full-stack' },
+                { name: 'og:image:type' , property: 'og:image:type', content: 'image/jpg' },
+                { name: 'og:image:secure_url' , property: 'og:image:secure_url', content: 'https://posoroko.com/seo-assets/og-banner.jpg' },
+                { name: 'og:title' , property: 'og:title', content: 'Eric Podhorecki, développeur web full-stack' },
+                { name: 'og:type' , property: 'og:type', content: 'website' },
+                { name: 'fb:app_id' , property: 'fb:app_id', content: '123456789' },
             ]
         }
     }

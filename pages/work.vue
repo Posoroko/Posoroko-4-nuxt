@@ -79,6 +79,7 @@ main.work {
     display: flex;
     justify-content: space-between;
     position: relative;
+    overflow: hidden;
 }
 /* CARD ANIMATION */
 
@@ -154,6 +155,7 @@ img {
     flex-direction: column;
     justify-content: space-between;
     backdrop-filter: blur(2px) brightness(0.8);
+    overflow: scroll;
 }
 
 .projectFrame:focus .content {
