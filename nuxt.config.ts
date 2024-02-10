@@ -14,18 +14,29 @@ export default defineNuxtConfig({
         head: {
             link: [
                 { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-                { rel: 'apple-touch-icon', sizes: '180x180', href: '/images/seo-assets/apple-touch-icon.png' },
-                { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/images/seo-assets/favicon-32x32.png' },
-                { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/images/seo-assets/favicon-16x16.png' },
-                { rel: 'manifest', href: '/images/seo-assets/site.webmanifest' },
-                { rel: 'mask-icon', href: '/images/seo-assets/safari-pinned-tab.svg', color: '#5bbad5' },
-                { rel: 'shortcut icon', href: '/images/seo-assets/favicon.ico' },
+                { rel: 'apple-touch-icon', sizes: '180x180', href: '/seo-assets/apple-touch-icon.png' },
+                { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/seo-assets/favicon-32x32.png' },
+                { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/seo-assets/favicon-16x16.png' },
+                { rel: 'manifest', href: '/seo-assets/site.webmanifest' },
+                { rel: 'mask-icon', href: '/seo-assets/safari-pinned-tab.svg', color: '#5bbad5' },
+                { rel: 'shortcut icon', href: '/seo-assets/favicon.ico' },
                 { rel: 'msapplication-TileColor', content: '#da532c' },
-                { rel: 'msapplication-config', content: '/images/seo-assets/browserconfig.xml' },
+                { rel: 'msapplication-config', content: '/seo-assets/browserconfig.xml' },
                 { rel: 'theme-color', content: '#ffffff' }
-            ]    
+            ],
+            meta: [
+                { property: 'og:image', content: '/seo-assets/og-banner.jpg' },
+                { property: 'og:image:width', content: '1200' },
+                { property: 'og:image:height', content: '630' },
+                { property: 'og:image:alt', content: 'Eric Podhorecki, développeur web full-stack' },
+                { property: 'og:image:type', content: 'image/jpg' },
+                { property: 'og:image:secure_url', content: 'https://posoroko.com/seo-assets/og-banner.jpg' },
+                { property: 'og:title', content: 'Eric Podhorecki, développeur web full-stack' },
+                { property: 'og:type', content: 'website' },
+            ]
         }
     }
 
 })
 
+// og:image /images/seo-assets/og-image.png
