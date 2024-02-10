@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background: #ffffff67;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #00a8f72a;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    all: unset;
+}
+
+html {
+    
+    font-size: 62.5%;
+    user-select: none;
+
+    /* filter: grayscale(1) contrast(1.5) brightness(0.7); */
+}
+:root {
+    --blue: #5e909c;
+    --cream: #d5d3c2;
+
+    --html-padding: clamp(5px, 1vw, 20px);
+}
+* {
+    color: var(--cream);
+}
+body {
+    height: 100%;
+    
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.industrial {
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+}

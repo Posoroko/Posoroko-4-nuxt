@@ -1,0 +1,94 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Singe Diesel",
+            "imageName": "singe",
+            "text": {
+                "fr": "Site de la Compagnie Singe Diesel dirigée par Juan Perez Escala, légende vivante de la marionnette.",
+                "en": "Website of the Singe Diesel Company directed by Juan Perez Escala, living legend of the puppetry."
+            }
+        },
+        {
+            "id": 2,
+            "title": "Hello Work Vert-Ificateur",
+            "imageName": "HWV",
+            "text": {
+                "fr": "Petit outil qui comble un manque dans l'interface de hellowork.com en indiquant en vert les offres auxquelles on a déjà postulé.",
+                "en": "Petit outil qui comble un manque dans l'interface de hellowork.com en indiquant en vert les offres auxquelles on a déjà postulé."
+            }
+        },
+        {
+            "id": 3,
+            "title": "Monsieur Edgar",
+            "imageName": "edgar",
+            "text": {
+                "fr": "Promotion des services aux professionnels de mon entreprise.",
+                "en": "Promotion of services to professionals from my company."
+            }
+        },
+        {
+            "id": 4,
+            "title": "Maire de Poullaouen",
+            "imageName": "poullaouen",
+            "text": {
+                "fr": "Présentation des services de la mairie, agenda, album photo, documents administratifs ...",
+                "en": "Presentation of the town hall services, agenda, photo album, administrative documents ..."
+            }
+        },
+        {
+            "id": 5,
+            "title": "Krismenn",
+            "imageName": "krismenn",
+            "text": {
+                "fr": "Présentation des spectacles, agenda, album photo.",
+                "en": "Presentation of the shows, agenda, photo album."
+            }
+        },
+        {
+            "id": 6,
+            "title": "Synthèse Electric",
+            "imageName": "synthese",
+            "text": {
+                "fr": "Site vitrine de l'entreprise Synthèse Electric, présentation des services et réalisations.",
+                "en": "Showcase site of the company Synthèse Electric, presentation of services and achievements."
+            }
+        },
+        {
+            "id": 7,
+            "title": "Carine Leduc",
+            "imageName": "carine",
+            "text": {
+                "fr": "Site professionnel de Carine Leduc, thérapeute énergéticienne.",
+                "en": "Professional website of Carine Leduc, energy therapist."
+            }
+        },
+        {
+            "id": 8,
+            "title": "Sandra Lévénez",
+            "imageName": "miles",
+            "text": {
+                "fr": "Site professionnel de la championne du monde Sandra Lévénez.",
+                "en": "Professional website of world champion Sandra Lévénez."
+            }
+        },
+        {
+            "id": 9,
+            "title": "Demande à Tutu",
+            "imageName": "tutu",
+            "text": {
+                "fr": "Projet personnel. Outils d'aide pour cuisiniers et traiteurs.",
+                "en": "Personal project. Tools to help cooks and caterers."
+            }
+        },
+        {
+            "id": 10,
+            "title": "Snakoroko",
+            "imageName": "snakoroko",
+            "text": {
+                "fr": "Projet personnel.",
+                "en": "Personal project."
+            }
+        }
+    ]
+}
