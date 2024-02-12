@@ -4,56 +4,59 @@ import work from '@/content/work.json'
 </script>
 
 <template>
-    <main class="work grow flex gap20">
-        <div v-for="project in work.projects" :key="project.id"  class="projectFrame pFrame" tabindex="0">
-            <div class="card">
-                <div class="box">
-                    <div class="imgFrame">
-                        <picture>
-                            <source :srcset="`/images/projects/${project.imageName}.webp`" type="image/webp">
+    <Main class="main work">
+        <template #scrollContent>
+            <div v-for="project in work.projects" :key="project.id"  class="projectFrame pFrame" tabindex="0">
+                    <div class="card">
+                        <div class="box">
+                            <div class="imgFrame">
+                                <picture>
+                                    <source :srcset="`/images/projects/${project.imageName}.webp`" type="image/webp">
 
-                            <img :src="`/images/projects/${project.imageName}.jpg`" alt="">
-                        </picture>
-                    </div>
-                    <a class="projectTitle published" href="">{{ project.title }}</a>
-                </div>
+                                    <img :src="`/images/projects/${project.imageName}.jpg`" alt="">
+                                </picture>
+                            </div>
+                            <a class="projectTitle published" href="">{{ project.title }}</a>
+                        </div>
 
-                <div class="contentFrame">
-                    <div class="content">
-                        <p class="title">
-                            {{ project.title }}
-                        </p>
+                        <div class="contentFrame">
+                            <div class="content">
+                                <p class="title">
+                                    {{ project.title }}
+                                </p>
                 
-                        <p class="description relative">
-                            <span class="translation fr">
-                                {{ project.text.fr }}
-                            </span>
-                            <span class="translation en">
-                                {{ project.text.en }}
-                            </span>
-                        </p>
+                                <p class="description relative">
+                                    <span class="translation fr">
+                                        {{ project.text.fr }}
+                                    </span>
+                                    <span class="translation en">
+                                        {{ project.text.en }}
+                                    </span>
+                                </p>
 
-                        <p>2023</p>
+                                <p>2023</p>
                     
-                        <a class="link" href="https://singediesel.org" target="_blank">
-                            <span class="linkBox grow relative flex alignCenter">
-                                <span class="translation fr">Visiter le site</span>
-                                <span class="translation en flex alignCenter">Visit the site</span>
-                            </span>
-                        </a>
+                                <a class="link" href="https://singediesel.org" target="_blank">
+                                    <span class="linkBox grow relative flex alignCenter">
+                                        <span class="translation fr">Visiter le site</span>
+                                        <span class="translation en flex alignCenter">Visit the site</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </main>
+        </template>
+    </Main>
 </template>
 
 <style scoped>
-main.work {
+.main.work {
     --card-grow-1: 100%;
     --card-grow-2: 84%;
     --card-grow-3: 80%;
     --card-size: 76%;
+    --card-width: 250px;
 
     --card-animation-1: height 200ms ease-out;
 
@@ -62,9 +65,9 @@ main.work {
     --ease-delay: cubic-bezier(.84, -0.01, .31, .99);
     overflow-x: scroll;
     /* overflow-y: visible; */
-    padding-left: 8vw;
+    /* padding-left: 8vw;
     padding-bottom: 20px;
-    max-height: 520px;
+    max-height: 520px; */
 }
 .projectFrame {
     height: 450px;
@@ -213,19 +216,19 @@ img {
 /* height animation */
 
 
-main.work:not(:focus-within) .pFrame:has(+ .pFrame + .pFrame:hover) .card {
+.main.work:not(:focus-within) .pFrame:has(+ .pFrame + .pFrame:hover) .card {
     height: var(--card-grow-3);
 }
-main.work:not(:focus-within) .pFrame:has(+ .pFrame:hover) .card {
+.main.work:not(:focus-within) .pFrame:has(+ .pFrame:hover) .card {
     height: var(--card-grow-2);
 }
-main.work:not(:focus-within) .pFrame:hover .card {
+.main.work:not(:focus-within) .pFrame:hover .card {
     height: var(--card-grow-1) !important;
 }
-main.work:not(:focus-within) .pFrame:hover + .pFrame .card {
+.main.work:not(:focus-within) .pFrame:hover + .pFrame .card {
     height: var(--card-grow-2);
 }
-main.work:not(:focus-within) .pFrame:hover+.pFrame +.pFrame .card {
+.main.work:not(:focus-within) .pFrame:hover+.pFrame +.pFrame .card {
     height: var(--card-grow-3);
 }
 

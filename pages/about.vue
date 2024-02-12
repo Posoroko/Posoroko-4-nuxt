@@ -7,18 +7,25 @@ function tabChange(tabId) {
 </script>
 
 <template>
-    <main class="relative grow flex column">
-        <AboutTabs @tab-change="tabChange" />
+    <Main class="main about column">
+        <template #tabs>
+            <AboutTabs @tab-change="tabChange" />
+        </template>
 
-        <AboutStackContent v-if="activeTab === 'stack'" />
-        
-        <AboutExperienceContent v-if="activeTab === 'experience'" />
-    </main>
+        <template #scrollContent>
+            <div class="relative flex grow h100">
+                <AboutStackContent v-if="activeTab === 'stack'" />
+
+                <AboutExperienceContent v-if="activeTab === 'experience'" />
+            </div>
+        </template>
+
+    </Main>
 </template>
 
 <style scoped>
 main {
-    /* padding-left: 10vw; */
+    padding: 5vh 0;
 }
 
-</style>>
+</style>
