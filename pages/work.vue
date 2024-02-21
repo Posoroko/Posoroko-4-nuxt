@@ -89,7 +89,6 @@ import work from '@/content/work.json'
     position: absolute;
     top: 0;
     right: 0;
-    
     font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: -0.05em;
