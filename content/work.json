@@ -109,7 +109,7 @@
             "title": "Demande à Tutu",
             "imageName": "tutu",
             "text": {
-                "fr": "Personelnnel. Outils d'aide pour cuisiniers et traiteurs.",
+                "fr": "Personel. Outils d'aide pour cuisiniers et traiteurs.",
                 "en": "Personal. Tools to help cooks and caterers."
             },
             "tag": {
@@ -122,8 +122,8 @@
             "title": "Snakoroko",
             "imageName": "snakoroko",
             "text": {
-                "fr": "Personelnnel.",
-                "en": "Personal."
+                "fr": "Projet réalisé pendant ma formation, ma reprise du classique jeu Snake.",
+                "en": "I built this project while learning to code, my take on the classic Snake game."
             },
             "tag": {
                 "fr": "Personel",
