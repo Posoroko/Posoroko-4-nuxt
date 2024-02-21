@@ -7,6 +7,10 @@
             "text": {
                 "fr": "Site de la Compagnie Singe Diesel dirigée par Juan Perez Escala, légende vivante de la marionnette.",
                 "en": "Website of the Singe Diesel Company directed by Juan Perez Escala, living legend of the puppetry."
+            },
+            "tag": {
+                "fr": "Client",
+                "en": "Client"
             }
         },
         {
@@ -16,6 +20,10 @@
             "text": {
                 "fr": "Petit outil qui comble un manque dans l'interface de hellowork.com en indiquant en vert les offres auxquelles on a déjà postulé.",
                 "en": "Petit outil qui comble un manque dans l'interface de hellowork.com en indiquant en vert les offres auxquelles on a déjà postulé."
+            },
+            "tag": {
+                "fr": "Projet perso",
+                "en": "Personal project"
             }
         },
         {
@@ -25,6 +33,10 @@
             "text": {
                 "fr": "Promotion des services aux professionnels de mon entreprise.",
                 "en": "Promotion of services to professionals from my company."
+            },
+            "tag": {
+                "fr": "Projet perso",
+                "en": "Personal project"
             }
         },
         {
@@ -34,6 +46,10 @@
             "text": {
                 "fr": "Présentation des services de la mairie, agenda, album photo, documents administratifs ...",
                 "en": "Presentation of the town hall services, agenda, photo album, administrative documents ..."
+            },
+            "tag": {
+                "fr": "Client",
+                "en": "Client"
             }
         },
         {
@@ -43,6 +59,10 @@
             "text": {
                 "fr": "Présentation des spectacles, agenda, album photo.",
                 "en": "Presentation of the shows, agenda, photo album."
+            },
+            "tag": {
+                "fr": "Client",
+                "en": "Client"
             }
         },
         {
@@ -52,6 +72,10 @@
             "text": {
                 "fr": "Site vitrine de l'entreprise Synthèse Electric, présentation des services et réalisations.",
                 "en": "Showcase site of the company Synthèse Electric, presentation of services and achievements."
+            },
+            "tag": {
+                "fr": "Client",
+                "en": "Client"
             }
         },
         {
@@ -61,6 +85,10 @@
             "text": {
                 "fr": "Site professionnel de Carine Leduc, thérapeute énergéticienne.",
                 "en": "Professional website of Carine Leduc, energy therapist."
+            },
+            "tag": {
+                "fr": "Client",
+                "en": "Client"
             }
         },
         {
@@ -70,6 +98,10 @@
             "text": {
                 "fr": "Site professionnel de la championne du monde Sandra Lévénez.",
                 "en": "Professional website of world champion Sandra Lévénez."
+            },
+            "tag": {
+                "fr": "Client",
+                "en": "Client"
             }
         },
         {
@@ -79,6 +111,10 @@
             "text": {
                 "fr": "Projet personnel. Outils d'aide pour cuisiniers et traiteurs.",
                 "en": "Personal project. Tools to help cooks and caterers."
+            },
+            "tag": {
+                "fr": "Projet perso",
+                "en": "Personal project"
             }
         },
         {
@@ -88,6 +124,10 @@
             "text": {
                 "fr": "Projet personnel.",
                 "en": "Personal project."
+            },
+            "tag": {
+                "fr": "Projet perso",
+                "en": "Personal project"
             }
         }
     ]

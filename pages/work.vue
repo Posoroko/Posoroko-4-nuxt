@@ -8,7 +8,7 @@ import work from '@/content/work.json'
         <template #scrollContent>
             <div v-for="project in work.projects" :key="project.id"  class="projectFrame pFrame" tabindex="0">
                     <div class="card">
-                        <div class="box">
+                        <div class="box relative">
                             <div class="imgFrame">
                                 <picture>
                                     <source :srcset="`/images/projects/${project.imageName}.webp`" type="image/webp">
@@ -17,6 +17,15 @@ import work from '@/content/work.json'
                                 </picture>
                             </div>
                             <a class="projectTitle published" href="">{{ project.title }}</a>
+
+                            <div class="tag absolute">
+                                <p class="translation fr">
+                                    {{ project.tag.fr }}
+                                </p>
+                                <p class="translation en">
+                                    {{ project.tag.en }}
+                                </p>
+                            </div>
                         </div>
 
                         <div class="contentFrame">
@@ -75,7 +84,24 @@ import work from '@/content/work.json'
     display: flex;
     align-items: center;
 }
-
+.tag {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    color: var(--cream);
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.tag .translation {
+    background-color: var(--blue);
+    padding: 5px 10px;
+}
 .projectFrame .card {
     flex-shrink: 0;
     cursor: pointer;
