@@ -18,13 +18,15 @@ import work from '@/content/work.json'
                             </div>
                             <a class="projectTitle published" href="">{{ project.title }}</a>
 
-                            <div class="tag absolute">
-                                <p class="translation fr">
-                                    {{ project.tag.fr }}
-                                </p>
-                                <p class="translation en">
-                                    {{ project.tag.en }}
-                                </p>
+                            <div class="tag absolute flex justifyEnd">
+                                <div class="flex justifyEnd relative">
+                                    <p class="translation fr">
+                                        {{ project.tag.fr }}
+                                    </p>
+                                    <p class="translation en">
+                                        {{ project.tag.en }}
+                                    </p>
+                                </div>
                             </div>
                         </div>
 
@@ -94,8 +96,6 @@ import work from '@/content/work.json'
     letter-spacing: -0.05em;
     color: var(--cream);
     z-index: 1;
-    display: flex;
-    justify-content: flex-end;
 }
 .tag .translation {
     background-color: var(--blue);

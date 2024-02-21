@@ -22,8 +22,8 @@
                 "en": "Petit outil qui comble un manque dans l'interface de hellowork.com en indiquant en vert les offres auxquelles on a déjà postulé."
             },
             "tag": {
-                "fr": "Projet perso",
-                "en": "Personal project"
+                "fr": "Personel",
+                "en": "Personal"
             }
         },
         {
@@ -35,8 +35,8 @@
                 "en": "Promotion of services to professionals from my company."
             },
             "tag": {
-                "fr": "Projet perso",
-                "en": "Personal project"
+                "fr": "Personel",
+                "en": "Personal"
             }
         },
         {
@@ -109,12 +109,12 @@
             "title": "Demande à Tutu",
             "imageName": "tutu",
             "text": {
-                "fr": "Projet personnel. Outils d'aide pour cuisiniers et traiteurs.",
-                "en": "Personal project. Tools to help cooks and caterers."
+                "fr": "Personelnnel. Outils d'aide pour cuisiniers et traiteurs.",
+                "en": "Personal. Tools to help cooks and caterers."
             },
             "tag": {
-                "fr": "Projet perso",
-                "en": "Personal project"
+                "fr": "Personel",
+                "en": "Personal"
             }
         },
         {
@@ -122,12 +122,12 @@
             "title": "Snakoroko",
             "imageName": "snakoroko",
             "text": {
-                "fr": "Projet personnel.",
-                "en": "Personal project."
+                "fr": "Personelnnel.",
+                "en": "Personal."
             },
             "tag": {
-                "fr": "Projet perso",
-                "en": "Personal project"
+                "fr": "Personel",
+                "en": "Personal"
             }
         }
     ]
