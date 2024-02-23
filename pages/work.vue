@@ -47,7 +47,7 @@ import work from '@/content/work.json'
 
                                 <p>2023</p>
                     
-                                <a class="link" href="https://singediesel.org" target="_blank">
+                                <a class="link" :href="project.url" target="_blank">
                                     <span class="linkBox grow relative flex alignCenter">
                                         <span class="translation fr">Visiter le site</span>
                                         <span class="translation en flex alignCenter">Visit the site</span>
@@ -87,7 +87,8 @@ import work from '@/content/work.json'
     align-items: center;
 }
 .tag {
-    width: 100%;
+    width: 10ch;
+    text-align: right;
     position: absolute;
     top: 0;
     right: 0;
