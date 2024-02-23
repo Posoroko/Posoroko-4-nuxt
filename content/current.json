@@ -1,0 +1,49 @@
+{
+    "work": [
+        {
+            "id": "1",
+            "title": {
+                "fr": "Projet French Fonts",
+                "en": "French Fonts Project"
+            },
+            "website": {
+                "active": true,
+                "text": {
+                    "fr": "Voir sur Instagram",
+                    "en": "Check on Instagram"
+                },
+                "url": "https://www.instagram.com/frenchfonts?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            }
+        },
+        {
+            "id": "2",
+            "title": {
+                "fr": "Nouveau site de Krismenn",
+                "en": "New website for Krismenn"
+            },
+            "website": {
+                "active": false,
+                "text": {
+                    "fr": "Voir le site web",
+                    "en": "Check the website"
+                },
+                "url": "https://krismenn.com"
+            }
+        },
+        {
+            "id": "3",
+            "title": {
+                "fr": "Contribution à Cuttle.cards",
+                "en": "Contribution to Cuttle.cards"
+            },
+            "website": {
+                "active": true,
+                "text": {
+                    "fr": "Voir le github",
+                    "en": "View on github"
+                },
+                "url": "https://github.com/cuttle-cards/cuttle"
+            }
+        }
+    ]
+}

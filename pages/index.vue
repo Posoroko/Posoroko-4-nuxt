@@ -1,5 +1,5 @@
 <template>
-    <main class="grow">
-
+    <main class="grow centered">
+        <CurrentWorkMain />
     </main>
 </template>
