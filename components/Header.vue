@@ -26,7 +26,6 @@ const displayTitles = computed(() => {
             }
     }
 })
-
 </script>
 
 <template>

@@ -39,5 +39,3 @@ export default defineNuxtConfig({
     }
 
 })
-
-// og:image /images/seo-assets/og-image.png
