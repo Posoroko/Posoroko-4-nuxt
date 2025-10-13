@@ -36,6 +36,7 @@ export default defineNuxtConfig({
                 { name: 'fb:app_id' , property: 'fb:app_id', content: '123456789' },
             ]
         }
-    }
+    },
+    compatibilityDate: '2025-10-13'
 
 })

@@ -3,6 +3,22 @@
         {
             "global": {
                 "date": "2024-02-01",
+                "linkUrl": "https://findstable.net"
+            },
+            "content": {
+                "fr": {
+                    "title": "Projet Finds Table",
+                    "linkText": "Visiter Finds Table"
+                },
+                "en": {
+                    "title": "The Finds Table project",
+                    "linkText": "Visit Finds table"
+                }
+            }
+        },
+        {
+            "global": {
+                "date": "2024-02-01",
                 "linkUrl": "https://github.com/Posoroko/Krismenn-3"
             },
             "content": {

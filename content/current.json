@@ -3,16 +3,16 @@
         {
             "id": "1",
             "title": {
-                "fr": "Projet French Fonts",
-                "en": "French Fonts Project"
+                "fr": "Finds Table",
+                "en": "Finds Table"
             },
             "website": {
                 "active": true,
                 "text": {
-                    "fr": "Voir sur Instagram",
-                    "en": "Check on Instagram"
+                    "fr": "Visiter l'application",
+                    "en": "Check the app"
                 },
-                "url": "https://www.instagram.com/frenchfonts?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                "url": "https://findstable.net"
             }
         },
         {
@@ -33,16 +33,16 @@
         {
             "id": "3",
             "title": {
-                "fr": "Contribution à Cuttle.cards",
-                "en": "Contribution to Cuttle.cards"
+                "fr": "Projet French Fonts",
+                "en": "French Fonts Project"
             },
             "website": {
                 "active": true,
                 "text": {
-                    "fr": "Voir le github",
-                    "en": "View on github"
+                    "fr": "Voir sur Instagram",
+                    "en": "Check on Instagram"
                 },
-                "url": "https://github.com/cuttle-cards/cuttle"
+                "url": "https://www.instagram.com/frenchfonts?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             }
         }
     ]
