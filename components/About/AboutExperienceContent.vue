@@ -58,7 +58,7 @@
                                 Je suis spécialisé dans le développement d'applications frontales avec vue.js et nuxt.js.
                             </p>
             
-                            <a class="workLink" href="/pages/realisations.html">Voir mes réalisations</a>
+                            <a class="workLink" href="/work">Voir mes réalisations</a>
                         </div>
             
                         <div class="translation en">
@@ -68,7 +68,7 @@
                                 I specialize in the development of frontend applications with Vue.js and Nuxt.js.
                             </p>
             
-                            <a class="workLink" href="/pages/realisations.html">See my work</a>
+                            <a class="workLink" href="/work">See my work</a>
                         </div>
                     </article>
                 </li>
