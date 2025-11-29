@@ -1,0 +1,200 @@
+[
+    {
+        "title": "The Party",
+        "year": 2017,
+        "dateWatched": "2025-11-29",
+        "liked": true
+    },
+    {
+        "title": "August: Osage County",
+        "year": 2013,
+        "dateWatched": "2025-11-29",
+        "liked": false
+    },
+    {
+        "title": "Seeking a Friend for the End of the World",
+        "year": 2012,
+        "dateWatched": "2025-11-29",
+        "liked": false
+    },
+    {
+        "title": "After the Hunt",
+        "year": 2025,
+        "dateWatched": "2025-11-28",
+        "liked": true
+    },
+    {
+        "title": "Winter's Bone",
+        "year": 2010,
+        "dateWatched": "2025-11-27",
+        "liked": false
+    },
+    {
+        "title": "Hungry Hearts",
+        "year": 2014,
+        "dateWatched": "2025-11-27",
+        "liked": false
+    },
+    {
+        "title": "Exhibition",
+        "year": 2014,
+        "dateWatched": "2025-11-26",
+        "liked": true
+    },
+    {
+        "title": "12 Angry Men",
+        "year": 1997,
+        "dateWatched": "2025-11-26",
+        "liked": true
+    },
+    {
+        "title": "Un homme parfait",
+        "year": 2018,
+        "dateWatched": "2025-11-25",
+        "liked": false
+    },
+    {
+        "title": "X+Y",
+        "year": 2014,
+        "dateWatched": "2025-11-25",
+        "liked": true
+    },
+    {
+        "title": "Barbaque",
+        "year": 2021,
+        "dateWatched": "2025-11-25",
+        "liked": false
+    },
+    {
+        "title": "Monsters",
+        "year": 2010,
+        "dateWatched": "2025-11-24",
+        "liked": true
+    },
+    {
+        "title": "Wrong",
+        "year": 2012,
+        "dateWatched": "2025-11-24",
+        "liked": false
+    },
+    {
+        "title": "The Old Man and the Gun",
+        "year": 2018,
+        "dateWatched": "2025-11-18",
+        "liked": true
+    },
+    {
+        "title": "La meilleure façon de marcher",
+        "year": 1976,
+        "dateWatched": "2025-11-18",
+        "liked": false
+    },
+    {
+        "title": "The Man Who Knew Too Little",
+        "year": 1997,
+        "dateWatched": "2025-11-13",
+        "liked": true
+    },
+    {
+        "title": "Get Shorty",
+        "year": 1995,
+        "dateWatched": "2025-11-13",
+        "liked": true
+    },
+    {
+        "title": "The Idea of You",
+        "year": 2024,
+        "dateWatched": "2025-11-13",
+        "liked": false
+    },
+    {
+        "title": "Avocado Toast",
+        "year": 2020,
+        "dateWatched": "2025-11-12",
+        "liked": false
+    },
+    {
+        "title": "Memories of Me",
+        "year": 1988,
+        "dateWatched": "2025-11-11",
+        "liked": true
+    },
+    {
+        "title": "Flawless",
+        "year": 1999,
+        "dateWatched": "2025-11-06",
+        "liked": false
+    },
+    {
+        "title": "Outsiders",
+        "year": 1983,
+        "dateWatched": "2025-10-15",
+        "liked": false
+    },
+    {
+        "title": "Northern Exposure",
+        "year": 1990,
+        "dateWatched": "2025-07-01",
+        "liked": false
+    },
+    {
+        "title": "True Confessions",
+        "year": 1981,
+        "dateWatched": "2025-06-29",
+        "liked": false
+    },
+    {
+        "title": "Annie Hall",
+        "year": 1977,
+        "dateWatched": "2025-06-09",
+        "liked": true
+    },
+    {
+        "title": "Manhattan",
+        "year": 1979,
+        "dateWatched": "2025-06-08",
+        "liked": true
+    },
+    {
+        "title": "Cadillac Man",
+        "year": 1990,
+        "dateWatched": "2025-05-31",
+        "liked": true
+    },
+    {
+        "title": "Analyze This",
+        "year": 1999,
+        "dateWatched": "2025-05-28",
+        "liked": true
+    },
+    {
+        "title": "The Miracle Club",
+        "year": 2023,
+        "dateWatched": "2025-05-27",
+        "liked": false
+    },
+    {
+        "title": "L'Homme qui aimait les femmes",
+        "year": 1977,
+        "dateWatched": "2025-05-16",
+        "liked": true
+    },
+    {
+        "title": "Radio Days",
+        "year": 1987,
+        "dateWatched": "2025-05-15",
+        "liked": true
+    },
+    {
+        "title": "Jours tranquilles à Clichy",
+        "year": 1990,
+        "dateWatched": "2025-05-15",
+        "liked": false
+    },
+    {
+        "title": "Fisherman's Friends",
+        "year": 2019,
+        "dateWatched": "2025-05-14",
+        "liked": false
+    }
+]
