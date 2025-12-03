@@ -1,5 +1,12 @@
 [
     {
+        "title": "The Baltimorons",
+        "year": 2025,
+        "dateWatched": "2025-12-03",
+        "liked": true,
+        "christmas": true
+    },
+    {
         "title": "White Christmas",
         "year": 1954,
         "dateWatched": "2025-12-03",
