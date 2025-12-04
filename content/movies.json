@@ -1,17 +1,15 @@
 [
     {
-        "title": "The Baltimorons",
+        "title": "🎄 The Baltimorons",
         "year": 2025,
         "dateWatched": "2025-12-03",
-        "liked": true,
-        "christmas": true
+        "liked": true
     },
     {
-        "title": "White Christmas",
+        "title": "🎄 White Christmas",
         "year": 1954,
         "dateWatched": "2025-12-03",
-        "liked": true,
-        "christmas": true
+        "liked": true
     },
     {
         "title": "The Party",
@@ -20,14 +18,14 @@
         "liked": true
     },
     {
-        "title": "Jack in Time for Christmas",
+        "title": "🎄 Jack in Time for Christmas",
         "year": 2024,
         "dateWatched": "2025-12-01",
         "liked": false,
         "christmas": true
     },
     {
-        "title": "It's a wonderful life",
+        "title": "🎄 It's a wonderful life",
         "year": 1946,
         "dateWatched": "2025-12-01",
         "liked": true,
