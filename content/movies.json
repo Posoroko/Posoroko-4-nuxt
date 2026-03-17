@@ -1,5 +1,11 @@
 [
     {
+        "title": "The cat and the moon",
+        "year": 2019,
+        "dateWatched": "2026-03-17",
+        "liked": true
+     },
+    {
         "title": "No hard feelings",
         "year": 2023,
         "dateWatched": "2026-01-08",
