@@ -1,5 +1,11 @@
 [
     {
+        "title": "Rushmore",
+        "year": 1998,
+        "dateWatched": "2026-04-23",
+        "liked": false
+     },
+    {
         "title": "The Squid and the Whale",
         "year": 2005,
         "dateWatched": "2026-04-22",
@@ -36,7 +42,7 @@
         "liked": false
      },
     {
-        "title": "Promissing youg=ng woman",
+        "title": "Promissing young woman",
         "year": 2020,
         "dateWatched": "2026-03-26",
         "liked": true
