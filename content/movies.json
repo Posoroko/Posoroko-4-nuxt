@@ -1,8 +1,21 @@
 [
     {
-        "title": "Fruitcake Statiin",
+        "title": "Frances Ha",
+        "year": 2012,
+        "dateWatched": "2026-06-15",
+        "liked": true
+     },
+    
+    {
+        "title": "Paterson",
+        "year": 2016,
+        "dateWatched": "2026-06-15",
+        "liked": true
+     },
+    {
+        "title": "Fruitcake Station",
         "year": 2013,
-        "dateWatched": "2026-06-10",
+        "dateWatched": "2026-06-14",
         "liked": true
      },
     {
